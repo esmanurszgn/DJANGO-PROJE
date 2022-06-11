@@ -1,0 +1,11 @@
+set get class for each
+dom json
+
+
+Cross-browser uyumluluğu
+ ve responsive ara yüz kodlama
+
+ UI/UX 
+
+WEB API, REST, JSON 
+ önyüzde Rest API implementasyonu yapmış

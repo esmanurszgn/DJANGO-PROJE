@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} YAZARLARIMIZ {% endblock%}
+
+{% block content%}
+
+      
+      
+            <!-- yazarlar -->
+      
+            
+      <div class="container mt-5">
+          <div class="row">
+            {% for data in data %}
+            {% include 'bölümler/_yazarlar.html' %}
+            {% endfor %}
+            
+            
+              
+              
+          </div>
+         
+      </div>
+      
+            <!-- yazarlar -->
+{% endblock content%}

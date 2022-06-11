@@ -1,0 +1,33 @@
+{% load static %}
+
+
+<div class="col-md-4">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{{ data.image.url }}" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{data.isim}}</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{data.unvan}}</li>
+                <li class="list-group-item">
+                  <i class="bi bi-twitter"><span>/</span> {{data.hesap}}</i>
+                </li>
+                <li class="list-group-item">
+                  <i class="bi bi-instagram"> <span>/</span> {{data.hesap}}</i>
+                </li>
+                <li class="list-group-item">
+                  <i class="bi bi-envelope d-flex"> <span>/</span> {{data.mail}}</i>
+                </li>
+                
+                
+                
+              </ul>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+</div>

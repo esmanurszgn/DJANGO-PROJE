@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+
+{% block css_files %}
+
+{% endblock %}
+
+
+
+{% block title %} İÇERİK {% endblock %}
+
+{% block content%}
+  
+<div class="container">
+  <div class="card mb-3 mx-auto align-items-center" style="max-width: 800px;">
+    <div class="row g-0 align-items-center">
+      <div class="col-md-4">
+        <img src="{{ dergi.kapak.url }}" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body text-center">
+          <h5 class="card-title ">{{ dergi.baslik.upper }}</h5>
+          <p class="card-text ">
+
+            <a href="{{ dergi.icerik.url }}" target="_blank" style="color: black ;">
+
+              pdf olarak oku
+              </a>
+
+
+
+          </p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+{% endblock content%}
